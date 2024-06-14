@@ -1,17 +1,21 @@
-## Running React on Replit
+## Vedanta Vidyalaya
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This is a project for library management system.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+On this Project I can try to provide all free and available book related to study, dharma, ved, or others are available on a single site you can select the filter and book will be available.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+The Technology used in this Project are :-
+### Used Technology
+- React js
+- Html
+- Css
+- JavaScript
+- XML
+- nodejs (after some time)
+- UI/UX
+- API'S
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+### THANKS FOR WATCHING OUR PROJECT 
+### All Project is Created by Prince Daksh (Rudra). 
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+## Our website (). 
