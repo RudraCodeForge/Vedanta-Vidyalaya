@@ -11,14 +11,23 @@
   border:2px solid white;
 }
 .Menu{
-  top:20px;
+  top:55px;
   text-align:center;
   position:absolute;
-  left:-50%;
+  left:-100%;
   width:100%;
   height:100%;
   background:red;
-  display:none;
+  padding:10px;
+  /*display:none;*/
+}
+.MENU{
+  left:0;
+}
+.Search{
+  width:70%;
+  padding:5px;
+  text-align:right;
 }
 .Menu a{
   display: block;
