@@ -21,17 +21,25 @@ const Hamburger = () => {
           <li>
             <a href="#">HOME</a>
           </li>
+          
           <li>
             <a href="#">BOOKS</a>
           </li>
+          
           <li>
             <a href="#">ABOUT US</a>
           </li>
+          
           <li>
             <a href="#">UPLOAD NEW BOOK</a>
           </li>
+          
           <li>
             <a href="#">CONTACT US</a>
+          </li>
+          
+          <li>
+            <a href="#">BUY ME CUP OF COFFEE</a>
           </li>
           
         </ul>

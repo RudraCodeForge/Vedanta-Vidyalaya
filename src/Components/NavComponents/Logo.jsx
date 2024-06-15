@@ -1,10 +1,12 @@
 
 import "./Logo.css";
 
+let a="IMAGES/logo.png";
+
 const Logo=()=>{
   return(
     <div className="logo">
-      <img className="mlogo" src="IMAGES/logo.png"></img>
+      <img className="mlogo" src={a}></img>
     </div>
   )
 }
