@@ -1,33 +1,51 @@
 .Hamburger {
   padding:10px;
+  color:red;
   /*margin-top:5px;*/
 }
 .bar{
-  background:white;
+ /* background:white;*/
   width:30px;
   height:5px;
   margin:5px;
+  border-radius:20px;
   display: block;
   border:2px solid white;
 }
+/*.bar:hover{
+  background:red;
+  border:2px solid red;
+}*/
 .Menu{
+  font-weight:bold;
+  font-size:1.5rem;
   top:55px;
   text-align:center;
   position:absolute;
   left:-100%;
   width:100%;
   height:100%;
-  background:red;
+  background:#80808080;
   padding:10px;
+  transition:1s ease-in-out;
   /*display:none;*/
 }
-.MENU{
+.open{
+  font-weight:bold;
+  font-size:1.5rem;
+  top:55px;
+  text-align:center;
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:#80808080;
+  padding:10px;
   left:0;
+  transition:1s ease-in-out;
 }
 .Search{
   width:70%;
   padding:5px;
-  text-align:right;
 }
 .Menu a{
   display: block;
@@ -37,7 +55,15 @@
   font-family: "Playfair Display", serif;
   transition: 0.5s ease-in-out;
 }
-.Menu a:hover{
+.open a{
+  display: block;
+  color:white;
+  margin:5px;
+  text-decoration:none;
+  font-family: "Playfair Display", serif;
+  transition: 0.5s ease-in-out;
+}
+.open a:hover{
   background:grey;
   color:lightgreen;
 }
