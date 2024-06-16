@@ -1,0 +1,27 @@
+.Landing-Container{
+  width:100%;
+  height:auto;
+  background:#0C0908;
+  color:white;
+  padding:15px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Landing-Container h3, p{
+  text-align:center;
+  margin-top:20px;
+  font-family: "Playfair Display", serif;
+  animation: fadeIn 2s;
+}
+
+.para0{
+  animation: fadeIn 4s;
+}
